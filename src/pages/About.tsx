@@ -15,7 +15,7 @@ const About = () => {
       <Hero
         title="About ShayPainting"
         subtitle="Built on Trust. Backed by Craftsmanship."
-        backgroundImage="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070&auto=format&fit=crop"
+        backgroundImage="https://images.unsplash.com/photo-1486718448742-163732cd1544?q=80&w=1770&auto=format&fit=crop"
       />
 
       <section className="py-20 bg-white">
@@ -47,8 +47,8 @@ const About = () => {
             </div>
             <div className="rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1581088382991-83277d5fb6af?q=80&w=2071&auto=format&fit=crop" 
-                alt="Our Approach" 
+                src="https://images.unsplash.com/photo-1527576539890-dfa815648363?q=80&w=1770&auto=format&fit=crop" 
+                alt="Professional Painting Approach" 
                 className="w-full h-auto object-cover"
               />
             </div>
