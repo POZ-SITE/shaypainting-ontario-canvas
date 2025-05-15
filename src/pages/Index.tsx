@@ -109,30 +109,24 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-12 text-center">What Our Clients Say</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="animate-fade-in opacity-0" style={{animationDelay: '0.2s'}}>
-              <TestimonialCard 
-                quote="ShayPainting transformed my house! Their team was punctual, professional, and the results are beautiful."
-                author="Sarah L."
-                location="Toronto"
-                className="bg-white/10 text-white border border-white/20"
-              />
-            </div>
-            <div className="animate-fade-in opacity-0" style={{animationDelay: '0.4s'}}>
-              <TestimonialCard 
-                quote="I was amazed at the attention to detail. They went above and beyond what I expected."
-                author="Michael R."
-                location="Ottawa"
-                className="bg-white/10 text-white border border-white/20"
-              />
-            </div>
-            <div className="animate-fade-in opacity-0" style={{animationDelay: '0.6s'}}>
-              <TestimonialCard 
-                quote="The team at ShayPainting were true professionals. Clean, efficient, and the quality is outstanding."
-                author="Jennifer T."
-                location="Hamilton"
-                className="bg-white/10 text-white border border-white/20"
-              />
-            </div>
+            <TestimonialCard 
+              quote="ShayPainting transformed my house! Their team was punctual, professional, and the results are beautiful."
+              author="Sarah L."
+              location="Toronto"
+              className="bg-white/10 text-white border border-white/20"
+            />
+            <TestimonialCard 
+              quote="I was amazed at the attention to detail. They went above and beyond what I expected."
+              author="Michael R."
+              location="Ottawa"
+              className="bg-white/10 text-white border border-white/20"
+            />
+            <TestimonialCard 
+              quote="The team at ShayPainting were true professionals. Clean, efficient, and the quality is outstanding."
+              author="Jennifer T."
+              location="Hamilton"
+              className="bg-white/10 text-white border border-white/20"
+            />
           </div>
         </div>
       </section>
