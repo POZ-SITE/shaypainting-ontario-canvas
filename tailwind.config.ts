@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for ShayPainting
+				'shay-blue': '#1e3a8a',
+				'shay-light-blue': '#60a5fa',
+				'shay-gray': '#6b7280',
+				'shay-light': '#f9fafb',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -70,25 +76,35 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' }
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' }
+				},
+				'text-reveal': {
+					'0%': { 
+						transform: 'translateY(100%)',
+						opacity: '0'
 					},
-					to: {
-						height: '0'
+					'100%': { 
+						transform: 'translateY(0)',
+						opacity: '1'
 					}
+				},
+				'fade-in': {
+					'0%': { opacity: '0' },
+					'100%': { opacity: '1' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'text-reveal': 'text-reveal 1s ease-out forwards',
+				'text-reveal-delay-1': 'text-reveal 1s ease-out 0.1s forwards',
+				'text-reveal-delay-2': 'text-reveal 1s ease-out 0.2s forwards',
+				'fade-in': 'fade-in 1.5s ease-out'
 			}
 		}
 	},

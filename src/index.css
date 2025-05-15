@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 217 91% 33%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -30,7 +31,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 217 91% 33%;
 
     --radius: 0.5rem;
 
@@ -98,4 +99,21 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Custom styles for ShayPainting */
+.text-reveal {
+  @apply opacity-0;
+}
+
+.service-card {
+  @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-2;
+}
+
+.service-card-icon {
+  @apply transition-all duration-300 group-hover:text-shay-blue;
+}
+
+html {
+  scroll-behavior: smooth;
 }
