@@ -36,6 +36,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/gallery" className="hover:text-shay-light-blue transition-colors">
+                  Gallery
+                </Link>
+              </li>
+              <li>
                 <Link to="/about" className="hover:text-shay-light-blue transition-colors">
                   About Us
                 </Link>
@@ -79,4 +84,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
