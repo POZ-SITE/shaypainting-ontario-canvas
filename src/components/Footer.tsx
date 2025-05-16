@@ -14,8 +14,11 @@ const Footer = () => {
             <p className="mb-4">
               Ontario's trusted residential & commercial painting experts.
             </p>
+            <p className="mb-2">
+              5 Wellington Street S
+            </p>
             <p>
-              Serving all of Ontario
+              Kitchener, ON N2G 0E3
             </p>
           </div>
           
@@ -53,7 +56,15 @@ const Footer = () => {
                 info@shaypainting.com
               </a>
             </p>
-            <Link to="/contact" className="inline-block mt-4 bg-white text-shay-blue px-6 py-2 rounded-md hover:bg-opacity-90 transition-all">
+            <p className="mb-2">
+              <span className="inline-block mr-2">⏰</span>
+              Mon-Fri: 8AM-6PM
+            </p>
+            <p className="mb-4">
+              <span className="inline-block mr-2">⏰</span>
+              Sat: 10AM-2PM
+            </p>
+            <Link to="/contact" className="inline-block mt-2 bg-white text-shay-blue px-6 py-2 rounded-md hover:bg-opacity-90 transition-all">
               Get a Free Estimate
             </Link>
           </div>
@@ -68,3 +79,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

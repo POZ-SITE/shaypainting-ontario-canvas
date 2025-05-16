@@ -41,8 +41,9 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-700">Our Service Area</h4>
-                    <p className="mt-1 text-gray-600">Serving all of Ontario</p>
+                    <h4 className="font-semibold text-gray-700">Our Address</h4>
+                    <p className="mt-1 text-gray-600">5 Wellington Street S</p>
+                    <p className="text-gray-600">Kitchener, ON N2G 0E3</p>
                   </div>
                 </div>
                 
@@ -69,7 +70,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-gray-700">Business Hours</h4>
                     <p className="mt-1 text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                    <p className="text-gray-600">Saturday: 9:00 AM - 4:00 PM</p>
+                    <p className="text-gray-600">Saturday: 10:00 AM - 2:00 PM</p>
                     <p className="text-gray-600">Sunday: Closed</p>
                   </div>
                 </div>
@@ -105,7 +106,7 @@ const Contact = () => {
           <h2 className="text-3xl font-bold mb-8 text-center text-shay-blue">Find Us</h2>
           <div className="rounded-lg overflow-hidden shadow-lg">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5757286.259218279!2d-85.41506676175582!3d46.57075886341793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05b25f5113af%3A0x70f8425629621e09!2sOntario%2C%20Canada!5e0!3m2!1sen!2sus!4v1715841665697!5m2!1sen!2sus" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.570548654352!2d-80.49573502402908!3d43.44968166605935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf4f35dcd9e3b%3A0x908774edd00245dc!2s5%20Wellington%20St%20S%2C%20Kitchener%2C%20ON%20N2G%200E3%2C%20Canada!5e0!3m2!1sen!2sus!4v1716440684972!5m2!1sen!2sus" 
               width="100%" 
               height="450" 
               style={{border:0}} 
@@ -121,3 +122,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
